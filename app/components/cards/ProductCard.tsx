@@ -6,7 +6,7 @@ interface BigProductDisplayCardProps {
   productDescription?: string;
 }
 
-const BigProducDisplayCard = ({ productName, productImage }: BigProductDisplayCardProps ) => {
+const ProductCard = ({ productName, productImage, productDescription }: BigProductDisplayCardProps ) => {
 
   // Here I am checking if the props are being passed
   if (!productImage) {
@@ -17,19 +17,22 @@ const BigProducDisplayCard = ({ productName, productImage }: BigProductDisplayCa
   }
 
   return (
-    <div className='w-90 mx-auto my-1 flex flex-col'>
-    <div className='relative w-90 h-108 mx-auto '>
+    <div className='w-48 mx-auto my-1 flex flex-col'>
+    <div className='relative w-48 h-44 mx-auto '>
     <Image 
       src={productImage} 
       alt={productName} 
       fill
-      className='rounded-sm object-cover shadow-lg shadow-black -z-10'
+      className='rounded-sm object-cover shadow-lg shadow-black'
       priority
     />
-    <p className='z-10 text-2xl mt-2 text-center w-full'><span className='text-white font-bold'>{productName}</span></p>
+    </div>
+    <div className='mt-2'>
+    <p className='text-gray-50 text-2xl font-bold mt-2 text-center w-full'>{productName}</p>
+    <p className='text-gray-300 text-center w-full mt-1'>{productDescription}</p>
     </div>
   </div>
   )
 }
 
-export default BigProducDisplayCard;
+export default ProductCard;

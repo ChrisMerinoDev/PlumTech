@@ -20,6 +20,7 @@ const SmallProductDisplayCard = ({ productName, productImage }: SmallProductDisp
       <img 
         src={productImage} 
         alt={productName} 
+        // Add an on Hover animation with css to make the card expand in size and have a shadow
         className='rounded-xl w-32 h-32 object-cover shadow-xs shadow-gray-700' />
       <p className='text-gray-200 mt-2'>{productName}</p>
       </div>

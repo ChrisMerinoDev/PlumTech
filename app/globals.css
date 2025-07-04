@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
 body {
-  background-image: url("/Assets/Background/background.jpg");
+  background-image: url("/Assets/background/background.jpg");
   background-size: full;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
+
+h1, h2 {
+  color: #B2F5EA;
+  font-weight: bold;
+}
+
+p {
+ color: whitesmoke;
 }
