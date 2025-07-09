@@ -1,18 +1,30 @@
 @import "tailwindcss";
 
 body {
-  background-image: url("/Assets/background/background.jpg");
+  background-image: url("/Assets/background/bg5.jpg");
+  background-color: #0B1D3A;
+  color: #AFC1DD;
   background-size: full;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  font-family: 'Inter', sans-serif;
 }
 
-h1, h2 {
-  color: #B2F5EA;
+h1 {
+  color: #F1F5FF;
   font-weight: bold;
 }
 
-p {
- color: whitesmoke;
+h2 {
+  color: #CAD6F6;
 }
+
+h3 {
+  color: #90B4F8;
+}
+
+p {
+ color: #AFC1DD;
+}
+

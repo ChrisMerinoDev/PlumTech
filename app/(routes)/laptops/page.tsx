@@ -1,5 +1,6 @@
 import ProductCard from '@/app/components/cards/ProductCard';
 import { laptopList } from '@/app/product-list/Products';
+import Link from 'next/link';
 import React from 'react'
 
 const LaptopsPage = () => {
@@ -10,12 +11,19 @@ const LaptopsPage = () => {
 
     <div className='grid grid-cols-1 md:grid-cols-3 gap-12 mt-16 mx-auto'>
       {laptopList.map((product, i) => (
-        <ProductCard
+        
+        <Link 
           key={i}
+          href={`/laptops/${product.slug}`}>
+        <ProductCard
+          
           productName={product.name}
           productImage={product.image}
           productDescription={product.description}
+          productPrice={product.price}
           />
+        </Link>
+
       ))}
       </div>
     </section>
