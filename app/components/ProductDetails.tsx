@@ -25,13 +25,13 @@ const ProductDetails = ({
     <section className='flex flex-col justify-center items-center w-screen min-h-screen'>
 
       {/* Image */}
-      <div className='flex w-8/12 sm:max-w-[50vh] lg:max-w-[80vh] lg:max-h-[70vh] overflow-hidden mt-6'>
+      <div className='flex w-8/12 sm:max-w-[50vh] lg:max-w-[80vh] lg:max-h-[70vh] overflow-hidden mt-6 rounded-xl shadow-black shadow-md'>
         <Image
           src={productImage}
           alt={productName}
           width={1600}
           height={1000}
-          className='object-cover rounded-lg shadow-black shadow-xl w-full h-auto'
+          className='object-cover w-full h-auto'
         />
       </div>
 
