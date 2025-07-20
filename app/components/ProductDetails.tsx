@@ -1,5 +1,8 @@
+"use client"
+
 import Image from 'next/image';
 import React from 'react'
+import { useCartStore } from '../store/useCartStore';
 
 interface ProductDetailsProps {
   productName: string;
@@ -9,6 +12,7 @@ interface ProductDetailsProps {
   productDetails: string;
   productCategory: string;
   productFeatures: string[];
+  productSlug: string;
 }
 
 const ProductDetails = ({
@@ -18,8 +22,20 @@ const ProductDetails = ({
   productDescription,
   productDetails,
   productCategory,
-  productFeatures
+  productFeatures,
+  productSlug,
 }: ProductDetailsProps) => {
+  const addToCart = useCartStore((state) => state.addToCart)
+
+    const handleAddToCart = () => {
+      addToCart({
+        id: productSlug,
+        ProductName: productName,
+        ProductImage: productImage,
+        Price:  productPrice,
+        Quantity: 1,
+    })
+}
 
   return (
     <section className='flex flex-col justify-center items-center w-screen min-h-screen'>
@@ -56,6 +72,15 @@ const ProductDetails = ({
               <li key={idx}>{feature}</li>
             ))}
           </ul>
+
+          <br />
+
+          <button 
+            onClick={handleAddToCart}
+            className='mx-auto mt-3 px-10 py-2 text-sm bg-blue-700 hover:bg-blue-800 hover:cursor-pointer text-white rounded-md block transition'>
+              Add to Cart
+            </button>
+            <br />
         </div>
 
       </section>

@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
 
         {/* CENTER: Nav Links */}
-        <div className='flex gap-12 justify-center items-center'>
+        <div className='flex gap-12 justify-center items-center ml-15'>
           <NavLink href={ROUTES.LAPTOPS} className='text-gray-50'>Laptops</NavLink>
           <NavLink href={ROUTES.PHONES} className='text-gray-50'>Phones</NavLink>
           <NavLink href={ROUTES.HEADPHONES} className='text-gray-50'>Headphones</NavLink>

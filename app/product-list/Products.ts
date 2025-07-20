@@ -16,10 +16,10 @@ export const laptopList = [
     category: 'laptop',
   },
   {
-    name: 'QuantumEdge 14',
-    slug: 'quantumedge-14',
+    name: 'QTEdge 14',
+    slug: 'qtedge-14',
     image: '/Assets/Laptops/Laptop2.jpg',
-    description: 'Engineered for speed and flawless multitasking.',
+    description: 'Engineered for speed and flawless multitasking at any time.',
     details: 'The QuantumEdge 14 is the ultimate workhorse for professionals needing fast, seamless performance. Equipped with a 12th Gen Intel i7 processor, 16GB DDR5 RAM, and a blazing 1TB NVMe SSD, it opens apps in seconds and handles large projects without lag. Its slim-bezel 14-inch QHD screen ensures exceptional clarity and color accuracy, while the robust build quality stands up to daily use. Perfect for business, design, and demanding multitasking.',
     features: [
       '12th Gen Intel Core i7 processor for high-speed computing',
@@ -80,10 +80,10 @@ export const laptopList = [
     category: 'laptop',
   },
   {
-    name: 'AudioMax Fusion',
-    slug: 'audiomax-fusion',
+    name: 'AoMax Fusion',
+    slug: 'aomax-fusion',
     image: '/Assets/Laptops/Laptop6.jpg',
-    description: 'Immersive audio and stunning edge-to-edge screen.',
+    description: 'Immersive audio and edge-to-edge screen.',
     details: 'AudioMax Fusion is the laptop for entertainment lovers. Dual Dolby Atmos speakers deliver immersive audio quality, making movies and music feel larger than life. Its 14-inch edge-to-edge screen offers sharp visuals and vibrant colors, perfect for streaming or creative work. Slim and lightweight, it also offers excellent battery life, ensuring you stay productive and entertained on the go.',
     features: [
       'Dual Dolby Atmos speakers for premium audio experience',
@@ -112,8 +112,8 @@ export const laptopList = [
     category: 'laptop',
   },
   {
-    name: 'RenderStation 4K',
-    slug: 'renderstation-4k',
+    name: 'RDRStation 4K',
+    slug: 'rdrstation-4k',
     image: '/Assets/Laptops/Laptop8.jpg',
     description: 'Built for demanding apps and smooth 4K editing.',
     details: 'RenderStation 4K is designed for professionals who need raw power for 3D rendering, VFX, and 4K video editing. Sporting a massive 17-inch UHD display, Intel Xeon processing, and dual NVIDIA RTX A5000 GPUs, it handles the most demanding tasks with ease. It features ECC memory for stability during long rendering sessions, making it perfect for studios and advanced creative workflows.',
@@ -302,8 +302,8 @@ Lightweight and compact, these headphones are perfect for travel, workouts, and 
     category: 'headphone',
   },
   {
-    name: 'SurroundSphere G',
-    slug: 'surroundsphere-g',
+    name: 'SRSphere G',
+    slug: 'srsphere-g',
     image: '/Assets/Headphones/Headphone5.jpg',
     description: 'Immersive surround sound for gaming and music.',
     details: `SurroundSphere G is crafted for gamers and audiophiles seeking true immersion. Advanced virtual surround technology creates a 360-degree audio environment, allowing you to pinpoint footsteps in games or enjoy the expansive soundscapes in your favorite music tracks.

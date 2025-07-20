@@ -21,11 +21,13 @@ const HeadPhonesPage = () => {
           productImage={product.image}
           productDescription={product.description}
           productPrice={product.price}
+          productSlug={product.slug}
           />
         </Link>
 
       ))}
       </div>
+      <br />
     </section>
   )
 }
