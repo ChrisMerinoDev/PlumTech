@@ -9,6 +9,7 @@ const Cart = () => {
     const removeFromCart = useCartStore((state) => state.removeFromCart);
     const addItem = useCartStore((state) => state.addToCart)
     const getTotal = useCartStore((state) => state.getTotal);
+    const clearCart = useCartStore((state) => state.clearCart);
 
     if (cartItems.length === 0) {
         return (
@@ -43,6 +44,11 @@ const Cart = () => {
                 </li>
             ))}
         </ul>
+        <div className="flex justify-end mt-6">
+            <button className="px-4 py-1.5 bg-red-700 rounded-lg cursor-pointer text-white hover:bg-red-800" onClick={clearCart}>
+                Clear Cart
+            </button>
+        </div>
 
         <div className="mt-8 text-right text-xl font-semibold">
             Subtotal: ${getTotal().toFixed(2)}

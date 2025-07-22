@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import React from 'react'
 import { useCartStore } from '../store/useCartStore';
+import toast from 'react-hot-toast';
 
 interface ProductDetailsProps {
   productName: string;
@@ -25,17 +26,23 @@ const ProductDetails = ({
   productFeatures,
   productSlug,
 }: ProductDetailsProps) => {
-  const addToCart = useCartStore((state) => state.addToCart)
+  const addToCart = useCartStore(state => state.addToCart)
 
-    const handleAddToCart = () => {
-      addToCart({
-        id: productSlug,
-        ProductName: productName,
-        ProductImage: productImage,
-        Price:  productPrice,
-        Quantity: 1,
+  const handleAdd = () => {
+    if (!productPrice) return;
+
+    const safeId = productSlug 
+
+    addToCart({
+      id: safeId,
+      ProductName: productName,
+      ProductImage: productImage,
+      Price: productPrice,
+      Quantity: 1,
     })
-}
+
+    return toast.success('Item Added to your Cart!')
+  }
 
   return (
     <section className='flex flex-col justify-center items-center w-screen min-h-screen'>
@@ -76,7 +83,7 @@ const ProductDetails = ({
           <br />
 
           <button 
-            onClick={handleAddToCart}
+            onClick={handleAdd}
             className='mx-auto mt-3 px-10 py-2 text-sm bg-blue-700 hover:bg-blue-800 hover:cursor-pointer text-white rounded-md block transition'>
               Add to Cart
             </button>
