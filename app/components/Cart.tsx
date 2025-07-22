@@ -7,6 +7,7 @@ import Image from "next/image";
 const Cart = () => {
     const cartItems = useCartStore((state) => state.cartItems);
     const removeFromCart = useCartStore((state) => state.removeFromCart);
+    const addItem = useCartStore((state) => state.addToCart)
     const getTotal = useCartStore((state) => state.getTotal);
 
     if (cartItems.length === 0) {
@@ -22,15 +23,23 @@ const Cart = () => {
         <h2 className="text-2xl font-bold mb-6">Your Cart</h2>
         <ul className="space-y-6">
             {cartItems.map((item) => (
-                <li key={item.id} className="flex justify-between items-center border-b pb-4">
-                    <div>
-                        <Image src={item.ProductImage} alt={item.ProductName} width={64} height={64} className="rounded-md"/>
-                        <h3 className="text-lg font-semibold">{item.ProductName}</h3>
-                        <p className="text-sm text-gray-400 font-semibold">Quantity: {item.Quantity} x ${item.Price}</p>
+                <li key={item.id} className="flex justify-between items-center border-b pb-4.5">
+                    <div className="relative w-24 h-24">
+                        <Image src={item.ProductImage} alt={item.ProductName} fill className="object-cover rounded-md"/>
                     </div>
-                    <button onClick={() => removeFromCart(item.id)} className="text-sm text-red-600 hover:underline hover:cursor-pointer">
+                        <h3 className="text-lg font-semibold">{item.ProductName}</h3>
+                    <div className="flex gap-4 items-center">
+                        <p className="text-md text-gray-400 font-semibold">Quantity x {item.Quantity}</p>
+                        <p className="text-md text-gray-400 font-semibold">Price: ${item.Price}</p>
+                    </div>
+                    <div className="flex gap-2">
+                    <button onClick={() => addItem(item)} className="text-sm text-white hover:underline hover:cursor-pointer hover:bg-blue-1000 bg-blue-700 px-5 py-1 rounded-lg">
+                        Add
+                    </button>
+                    <button onClick={() => removeFromCart(item.id)} className="text-sm text-white hover:underline hover:cursor-pointer hover:bg-red-800 bg-red-700 px-5 py-1 rounded-lg">
                         Remove
                     </button>
+                    </div>
                 </li>
             ))}
         </ul>

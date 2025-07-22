@@ -12,19 +12,15 @@ const HeadPhonesPage = () => {
     <div className='grid grid-cols-1 md:grid-cols-3 gap-12 mt-16 mx-auto'>
       {headPhoneList.map((product, i) => (
         
-        <Link 
-          key={i}
-          href={`/headphones/${product.slug}`}>
         <ProductCard
-          
+          key={i}
           productName={product.name}
           productImage={product.image}
           productDescription={product.description}
           productPrice={product.price}
           productSlug={product.slug}
-          />
-        </Link>
-
+          productLink={`/headphones/${product.slug}`}
+        />
       ))}
       </div>
       <br />

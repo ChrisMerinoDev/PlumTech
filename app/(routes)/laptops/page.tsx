@@ -12,19 +12,15 @@ const LaptopsPage = () => {
     <div className='grid grid-cols-1 md:grid-cols-3 gap-12 mt-16 mx-auto'>
       {laptopList.map((product, i) => (
         
-        <Link 
-          key={i}
-          href={`/laptops/${product.slug}`}>
         <ProductCard
-          
+          key={i}
           productName={product.name}
           productImage={product.image}
           productDescription={product.description}
           productPrice={product.price}
           productSlug={product.slug}
-          />
-        </Link>
-
+          productLink={`/laptops/${product.slug}`}
+        />
       ))}
       </div>
       <br />

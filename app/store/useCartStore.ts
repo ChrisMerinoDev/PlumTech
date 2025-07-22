@@ -40,12 +40,27 @@ export const useCartStore = create<CartState>((set, get) => ({
         }
       },
 
-    removeFromCart: (id) => {
-        set({
-            cartItems: get().cartItems.filter(p => p.id !== id)
-        })
-    },
-
+      removeFromCart: (id) => {
+        const currentCart = get().cartItems;
+        const existing = currentCart.find(p => p.id === id);
+      
+        if (existing) {
+          if (existing.Quantity <= 1) {
+            // Remove item entirely
+            set({
+              cartItems: currentCart.filter(p => p.id !== id)
+            });
+          } else {
+            // Decrease quantity
+            set({
+              cartItems: currentCart.map(p =>
+                p.id === id ? { ...p, Quantity: p.Quantity - 1 } : p
+              )
+            });
+          }
+        }
+      },
+      
     clearCart: () => set({ cartItems: [] }),
 
     getTotal: () => 
