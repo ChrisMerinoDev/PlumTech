@@ -74,7 +74,7 @@ const ProductDetails = ({
           <p className='px-4 sm:px-28 lg:px-12 text-center'>{productDetails}</p>
 
           <h1 className='mt-8 text-2xl mb-4 text-center'>Features:</h1>
-          <ul className='list-disc space-y-4 px-10 mb-10'>
+          <ul className='list-disc space-y-4 px-10 mb-5'>
             {productFeatures.map((feature, idx) => (
               <li key={idx}>{feature}</li>
             ))}
@@ -84,7 +84,7 @@ const ProductDetails = ({
 
           <button 
             onClick={handleAdd}
-            className='mx-auto mt-3 px-10 py-2 text-sm bg-blue-700 hover:bg-blue-800 hover:cursor-pointer text-white rounded-md block transition'>
+            className='mx-auto mb-8 px-10 py-2 text-sm bg-blue-700 hover:bg-blue-800 hover:cursor-pointer text-white rounded-md block transition'>
               Add to Cart
             </button>
             <br />
