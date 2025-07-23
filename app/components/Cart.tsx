@@ -14,9 +14,9 @@ const Cart = () => {
     if (cartItems.length === 0) {
         return (
             <div className="flex flex-col justify-center items-center h-[calc(100vh-6rem)] w-screen overflow-hidden">
-                <Image src='/empty-cart3.png' alt="empty-cart" width={320} height={320} className="object-contain" />
-                <h2 className="text-5xl font-bold">Your cart is empty</h2>
-                <Image src='/cancel.svg' alt="cancel" width={100} height={100} className="mt-4" />
+                <Image src='/empty-cart3.png' alt="empty-cart" width={320} height={320} className="w-[240px] h-[240px] sm:w-[320px] sm:h-[320px] object-contain" />
+                <h2 className="text-4xl sm:text-5xl font-bold mx-auto">Your cart is empty...</h2>
+                <Image src='/cancel.svg' alt="cancel" width={100} height={100} className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] mt-5" />
             </div>
         )
     }
