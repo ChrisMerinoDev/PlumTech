@@ -46,7 +46,9 @@ const BigProductDisplayCard = ({
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-3">
           <p className="text-2xl text-center font-bold">
+            <span className='text-gray-100'>
             {productName}
+            </span>
           </p>
         </div>
       </div>

@@ -42,8 +42,10 @@ const SmallProductDisplayCard = ({ productName, productImage }: SmallProductDisp
           priority
         />
       </div>
-      <p className="text-gray-200 mt-2 text-center">
+      <p className="mt-2 text-center font-bold text-lg">
+        <span className='text-gray-200'>
         {productName}
+        </span>
       </p>
     </div>
   )

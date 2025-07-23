@@ -11,7 +11,7 @@ const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <nav className='w-full hidden sm:flex justify-center bg-transparent'>
+    <nav className='w-full justify-center bg-transparent'>
       <div className='flex w-full items-center justify-between px-6 py-4'>
 
         {/* LEFT: Logo */}
@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
 
         {/* CENTER: Nav Links */}
-        <div className='flex gap-12 justify-center items-center ml-15'>
+        <div className='flex gap-3 sm:gap-12 justify-center items-center ml-15'>
           <NavLink href={ROUTES.LAPTOPS} className='text-gray-50'>Laptops</NavLink>
           <NavLink href={ROUTES.PHONES} className='text-gray-50'>Phones</NavLink>
           <NavLink href={ROUTES.HEADPHONES} className='text-gray-50'>Headphones</NavLink>

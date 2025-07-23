@@ -16,7 +16,7 @@ export default function Home() {
           </p>
       </section>
 
-            <div className="flex flex-row justify-center">
+            <div className="flex flex-col justify-center items-center">
               {/* Components to render here, map over the thumbnail image of each list item and make it inside the small
                   ProductDisplayCard */}
               <Link href={ROUTES.LAPTOPS}>
