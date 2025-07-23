@@ -1,3 +1,5 @@
+// TO-DO
+
 "use client"
 
 import { ROUTES } from '@/app/constants/routes'
@@ -6,7 +8,7 @@ import Link from 'next/link'
 import React from 'react'
 import NavLink from '../NavLink'
 
-const Navbar = () => {
+const MobileNavbar = () => {
 
   return (
     <nav className='w-full justify-center bg-transparent'>
@@ -54,4 +56,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default MobileNavbar;
