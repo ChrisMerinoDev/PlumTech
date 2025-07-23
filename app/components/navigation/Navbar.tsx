@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* LEFT: Logo */}
         <Link href={ROUTES.HOME} aria-label='Go to homepage' className='flex items-center'>
           <Image
-            src='/Assets/Icons/Plum-svg.svg'
+            src='/Icons/Plum-svg.svg'
             alt='PlumTech Logo'
             height={22}
             width={22}
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className='flex gap-6 items-center'>
           <button className='cursor-pointer'>
             <Image
-              src='/Assets/Icons/Search.svg'
+              src='/Icons/Search.svg'
               alt='Search'
               height={22}
               width={22}
@@ -43,7 +43,7 @@ const Navbar = () => {
           </button>
           <Link href={ROUTES.CART} className='cursor-pointer'>
             <Image
-              src='/Assets/Icons/Cart.svg'
+              src='/Icons/Cart.svg'
               alt='Cart'
               height={22}
               width={22}

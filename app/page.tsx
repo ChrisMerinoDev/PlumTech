@@ -21,21 +21,21 @@ export default function Home() {
                   ProductDisplayCard */}
               <Link href={ROUTES.LAPTOPS}>
                 <SmallProductDisplayCard 
-                  productImage="/Assets/Laptops/Laptop5.jpg"
+                  productImage="/Laptops/Laptop5.jpg"
                   productName="Laptops"
                 />
               </Link>
               
               <Link href={ROUTES.PHONES}>
               <SmallProductDisplayCard 
-                productImage="/Assets/Phones/Phone2.jpg"
+                productImage="/Phones/Phone2.jpg"
                 productName="Phones"
               />
               </Link>
 
               <Link href={ROUTES.HEADPHONES}>
               <SmallProductDisplayCard 
-                productImage="/Assets/Headphones/Headphone3.jpg"
+                productImage="/Headphones/Headphone3.jpg"
                 productName="Headphones"
               />
               </Link>
@@ -51,21 +51,21 @@ export default function Home() {
                 href={'/laptops/plasmabook-x1'}
                 >
               <BigProductDisplayCard
-                productImage="/Assets/Laptops/Laptop1.jpg"
+                productImage="/Laptops/Laptop1.jpg"
                 productName="PlasmaBook X1"
               />
               </Link>
 
               <Link href={'/phones/celestia-one'}>
               <BigProductDisplayCard
-                productImage="/Assets/Phones/Phone1.jpg"
+                productImage="/Phones/Phone1.jpg"
                 productName="Celestia One"
               /> 
               </Link> 
 
               <Link href={'/headphones/echozen-pro'}>
               <BigProductDisplayCard
-                productImage="/Assets/Headphones/Headphone1.jpg"
+                productImage="/Headphones/Headphone1.jpg"
                 productName="EchoZen Pro"
               />  
               </Link>

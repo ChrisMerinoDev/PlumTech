@@ -2,7 +2,7 @@ export const laptopList = [
   {
     name: 'PlasmaBook X1',
     slug: 'plasmabook-x1',
-    image: '/Assets/Laptops/Laptop1.jpg',
+    image: '/Laptops/Laptop1.jpg',
     description: 'Ultra-slim powerhouse with blazing-fast A1 Pro chip.',
     details: 'The PlasmaBook X1 combines remarkable portability with professional-grade performance. Featuring the blazing A1 Pro chip, it handles heavy multitasking, creative apps, and even light video editing effortlessly. Its 14-inch Retina display provides vivid colors and crisp text, while the lightweight 2.5 lb aluminum chassis makes it ideal for on-the-go professionals. With up to 20 hours of battery life and advanced thermal management, it’s built to deliver power without compromise.',
     features: [
@@ -18,7 +18,7 @@ export const laptopList = [
   {
     name: 'QTEdge 14',
     slug: 'qtedge-14',
-    image: '/Assets/Laptops/Laptop2.jpg',
+    image: '/Laptops/Laptop2.jpg',
     description: 'Engineered for speed and flawless multitasking at any time.',
     details: 'The QuantumEdge 14 is the ultimate workhorse for professionals needing fast, seamless performance. Equipped with a 12th Gen Intel i7 processor, 16GB DDR5 RAM, and a blazing 1TB NVMe SSD, it opens apps in seconds and handles large projects without lag. Its slim-bezel 14-inch QHD screen ensures exceptional clarity and color accuracy, while the robust build quality stands up to daily use. Perfect for business, design, and demanding multitasking.',
     features: [
@@ -34,7 +34,7 @@ export const laptopList = [
   {
     name: 'VisionCraft Pro',
     slug: 'visioncraft-pro',
-    image: '/Assets/Laptops/Laptop3.jpg',
+    image: '/Laptops/Laptop3.jpg',
     description: 'Crystal-clear display and next-gen graphics for creators.',
     details: 'VisionCraft Pro caters to creative professionals seeking exceptional visual fidelity. Featuring a stunning 16-inch 4K OLED panel, it delivers incredible contrast and color precision. An NVIDIA RTX 4070 GPU accelerates tasks like video editing, 3D rendering, and graphics work. With 32GB RAM and fast storage options, it’s built for complex creative workloads, while its sleek chassis keeps the machine cool and quiet, even under intense pressure.',
     features: [
@@ -50,7 +50,7 @@ export const laptopList = [
   {
     name: 'AeroLite Z',
     slug: 'aerolite-z',
-    image: '/Assets/Laptops/Laptop4.jpg',
+    image: '/Laptops/Laptop4.jpg',
     description: 'Lightweight, silent, and lightning-fast performance.',
     details: 'Perfect for travelers, the AeroLite Z weighs only 2.1 lbs and runs silently with a fanless design. It’s powered by an efficient processor that balances speed and battery life, delivering up to 12 hours on a single charge. A vibrant touch display and responsive keyboard make it a joy to use for students, business pros, or anyone needing a dependable ultra-portable device.',
     features: [
@@ -66,7 +66,7 @@ export const laptopList = [
   {
     name: 'HyperCool G7',
     slug: 'hypercool-g7',
-    image: '/Assets/Laptops/Laptop5.jpg',
+    image: '/Laptops/Laptop5.jpg',
     description: 'Advanced cooling keeps you productive all day.',
     details: 'The HyperCool G7 is a powerhouse built for gamers and professionals. It’s driven by a Ryzen 9 processor and boasts a triple-fan cooling system with liquid metal thermal compound to keep temperatures low under heavy loads. A 15.6-inch 165Hz high-refresh-rate display ensures silky visuals, while the customizable RGB keyboard adds a stylish flair for gaming or late-night work.',
     features: [
@@ -82,7 +82,7 @@ export const laptopList = [
   {
     name: 'AoMax Fusion',
     slug: 'aomax-fusion',
-    image: '/Assets/Laptops/Laptop6.jpg',
+    image: '/Laptops/Laptop6.jpg',
     description: 'Immersive audio and edge-to-edge screen.',
     details: 'AudioMax Fusion is the laptop for entertainment lovers. Dual Dolby Atmos speakers deliver immersive audio quality, making movies and music feel larger than life. Its 14-inch edge-to-edge screen offers sharp visuals and vibrant colors, perfect for streaming or creative work. Slim and lightweight, it also offers excellent battery life, ensuring you stay productive and entertained on the go.',
     features: [
@@ -98,7 +98,7 @@ export const laptopList = [
   {
     name: 'PortaFlex Prime',
     slug: 'portaflex-prime',
-    image: '/Assets/Laptops/Laptop7.jpg',
+    image: '/Laptops/Laptop7.jpg',
     description: 'Perfect blend of power, portability, and elegance.',
     details: 'The PortaFlex Prime offers unmatched versatility with its 360-degree hinge and responsive touchscreen, transforming seamlessly between laptop and tablet modes. Powered by Intel Evo-certified technology, it guarantees instant wake, lightning-fast connectivity, and all-day battery life. It’s an excellent choice for professionals seeking elegance and flexibility without sacrificing performance.',
     features: [
@@ -114,7 +114,7 @@ export const laptopList = [
   {
     name: 'RDRStation 4K',
     slug: 'rdrstation-4k',
-    image: '/Assets/Laptops/Laptop8.jpg',
+    image: '/Laptops/Laptop8.jpg',
     description: 'Built for demanding apps and smooth 4K editing.',
     details: 'RenderStation 4K is designed for professionals who need raw power for 3D rendering, VFX, and 4K video editing. Sporting a massive 17-inch UHD display, Intel Xeon processing, and dual NVIDIA RTX A5000 GPUs, it handles the most demanding tasks with ease. It features ECC memory for stability during long rendering sessions, making it perfect for studios and advanced creative workflows.',
     features: [
@@ -130,7 +130,7 @@ export const laptopList = [
   {
     name: 'NeuroCore AI',
     slug: 'neurocore-ai',
-    image: '/Assets/Laptops/Laptop9.jpg',
+    image: '/Laptops/Laptop9.jpg',
     description: 'Next-level AI processing for the future of work.',
     details: 'NeuroCore AI integrates a powerful Neural Processing Unit (NPU) dedicated to machine learning and AI workloads, perfect for data scientists and researchers. It features a high-resolution touchscreen, blazing PCIe Gen 5 SSD speeds, and intelligent cooling to keep performance optimal. Ideal for professionals working with large datasets, AI modeling, or future-forward applications.',
     features: [
@@ -149,7 +149,7 @@ export const phoneList = [
   {
     name: 'Celestia One',
     slug: 'celestia-one',
-    image: '/Assets/Phones/Phone1.jpg',
+    image: '/Phones/Phone1.jpg',
     description: 'Super-fast 5G with crystal-clear edge display.',
     details: `Celestia One offers a sleek and modern design coupled with super-fast 5G connectivity for streaming, gaming, and video calls without interruptions. Its expansive 6.5-inch OLED edge display delivers stunning contrast, vibrant colors, and immersive visuals that make every image and video pop. 
 
@@ -169,7 +169,7 @@ This phone’s slim profile, premium glass construction, and advanced performanc
   {
     name: 'Photon Max',
     slug: 'photon-max',
-    image: '/Assets/Phones/Phone2.jpg',
+    image: '/Phones/Phone2.jpg',
     description: 'AI-enhanced cameras for breathtaking photos.',
     details: `Photon Max redefines mobile photography with its triple-camera array capable of capturing detailed 8K video and vivid low-light shots. AI-powered image processing ensures every shot is perfectly balanced, with vibrant colors and sharp details even in challenging lighting conditions.
 
@@ -189,7 +189,7 @@ Photon Max is built for creators, power users, and anyone seeking the perfect bl
   {
     name: 'SlimVolt S',
     slug: 'slimvolt-s',
-    image: '/Assets/Phones/Phone3.jpg',
+    image: '/Phones/Phone3.jpg',
     description: 'Long-lasting battery in an ultra-slim frame.',
     details: `SlimVolt S delivers power and elegance in one ultra-slim package. At just a fraction of an inch thick, it houses a robust 5000mAh battery capable of powering you through two full days of moderate use without compromise. 
 
@@ -209,7 +209,7 @@ With modern styling, lightweight construction, and impressive endurance, SlimVol
   {
     name: 'Spectra AMOLED',
     slug: 'spectra-amoled',
-    image: '/Assets/Phones/Phone4.jpg',
+    image: '/Phones/Phone4.jpg',
     description: 'Seamless performance and vibrant AMOLED screen.',
     details: `Spectra AMOLED takes mobile viewing to the next level with its stunning 6.7-inch AMOLED display, delivering true-to-life colors, deep blacks, and high brightness for exceptional clarity indoors and out. 
 
@@ -232,7 +232,7 @@ export const headPhoneList = [
   {
     name: 'EchoZen Pro',
     slug: 'echozen-pro',
-    image: '/Assets/Headphones/Headphone1.jpg',
+    image: '/Headphones/Headphone1.jpg',
     description: 'Pure noise-cancellation with studio-grade sound.',
     details: `EchoZen Pro elevates your listening experience with adaptive noise cancellation that intelligently adjusts to your surroundings, ensuring uninterrupted focus whether you're traveling, working, or relaxing. Its custom-tuned drivers deliver balanced, studio-grade sound with crisp highs, detailed mids, and rich, deep bass. 
 
@@ -250,7 +250,7 @@ Memory foam ear cushions and a lightweight build provide all-day comfort, while 
   {
     name: 'FeatherTune Lite',
     slug: 'feathertune-lite',
-    image: '/Assets/Headphones/Headphone2.jpg',
+    image: '/Headphones/Headphone2.jpg',
     description: 'Lightweight design for all-day listening comfort.',
     details: `FeatherTune Lite is designed for those who prioritize comfort without sacrificing sound quality. Weighing just 180 grams, these headphones rest gently on your ears for hours of fatigue-free listening, making them perfect for long commutes, workdays, or relaxation sessions.
 
@@ -268,7 +268,7 @@ Despite their lightweight frame, FeatherTune Lite produces clear and well-balanc
   {
     name: 'BassPulse X',
     slug: 'basspulse-x',
-    image: '/Assets/Headphones/Headphone3.jpg',
+    image: '/Headphones/Headphone3.jpg',
     description: 'High-fidelity audio with deep, booming bass.',
     details: `BassPulse X is engineered for listeners who crave powerful bass without sacrificing clarity. Custom drivers produce booming low frequencies while maintaining crisp detail in vocals and instruments, delivering an immersive listening experience for both music and gaming.
 
@@ -286,7 +286,7 @@ These over-ear headphones feature plush ear cushions for exceptional comfort and
   {
     name: 'WaveSync Air',
     slug: 'wavesync-air',
-    image: '/Assets/Headphones/Headphone4.jpg',
+    image: '/Headphones/Headphone4.jpg',
     description: 'Wireless freedom and ultra-clear call quality.',
     details: `WaveSync Air offers total wireless freedom paired with crystal-clear communication. Dual-microphone noise reduction technology ensures your voice remains clear on calls, even in busy environments. 
 
@@ -304,7 +304,7 @@ Lightweight and compact, these headphones are perfect for travel, workouts, and 
   {
     name: 'SRSphere G',
     slug: 'srsphere-g',
-    image: '/Assets/Headphones/Headphone5.jpg',
+    image: '/Headphones/Headphone5.jpg',
     description: 'Immersive surround sound for gaming and music.',
     details: `SurroundSphere G is crafted for gamers and audiophiles seeking true immersion. Advanced virtual surround technology creates a 360-degree audio environment, allowing you to pinpoint footsteps in games or enjoy the expansive soundscapes in your favorite music tracks.
 
