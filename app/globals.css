@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  background-image: url("/background/bg5.jpg");
+  background-image: url("/Background/bg5.jpg");
   background-color: #0B1D3A;
   color: #AFC1DD;
   background-position: center;
