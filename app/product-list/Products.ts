@@ -13,7 +13,7 @@ export const laptopList = [
       'Advanced thermal architecture for silent operation',
     ],
     price: 1899,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'QTEdge 14',
@@ -29,7 +29,7 @@ export const laptopList = [
       'Durable metal chassis built for daily professional use',
     ],
     price: 1299,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'VisionCraft Pro',
@@ -45,7 +45,7 @@ export const laptopList = [
       'Advanced cooling system for quiet operation under load',
     ],
     price: 2499,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'AeroLite Z',
@@ -61,7 +61,7 @@ export const laptopList = [
       'Solid-state storage for fast boot times',
     ],
     price: 1099,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'HyperCool G7',
@@ -77,7 +77,7 @@ export const laptopList = [
       'Robust thermal management for demanding tasks',
     ],
     price: 1649,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'AoMax Fusion',
@@ -93,7 +93,7 @@ export const laptopList = [
       'Enhanced cooling for silent performance during media playback',
     ],
     price: 1749,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'PortaFlex Prime',
@@ -109,7 +109,7 @@ export const laptopList = [
       'High-resolution touchscreen for creative workflows',
     ],
     price: 1399,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'RDRStation 4K',
@@ -125,7 +125,7 @@ export const laptopList = [
       'Professional-grade thermal management system',
     ],
     price: 2999,
-    category: 'laptop',
+    category: 'laptops',
   },
   {
     name: 'NeuroCore AI',
@@ -141,7 +141,7 @@ export const laptopList = [
       'Engineered for advanced data science workflows',
     ],
     price: 3299,
-    category: 'laptop',
+    category: 'laptops',
   },
 ];
 
@@ -164,7 +164,7 @@ This phone’s slim profile, premium glass construction, and advanced performanc
       'Premium glass and aluminum design for a sleek aesthetic',
     ],
     price: 899,
-    category: 'phone',
+    category: 'phones',
   },
   {
     name: 'Photon Max',
@@ -184,7 +184,7 @@ Photon Max is built for creators, power users, and anyone seeking the perfect bl
       'Sleek, premium build designed for creators and professionals',
     ],
     price: 1099,
-    category: 'phone',
+    category: 'phones',
   },
   {
     name: 'SlimVolt S',
@@ -204,7 +204,7 @@ With modern styling, lightweight construction, and impressive endurance, SlimVol
       'Lightweight construction perfect for all-day carry',
     ],
     price: 749,
-    category: 'phone',
+    category: 'phones',
   },
   {
     name: 'Spectra AMOLED',
@@ -224,7 +224,7 @@ Powered by a high-performance processor, Spectra AMOLED seamlessly handles multi
       'High-performance processor ensures smooth multitasking',
     ],
     price: 1299,
-    category: 'phone',
+    category: 'phones',
   },
 ];
 
@@ -245,7 +245,7 @@ Memory foam ear cushions and a lightweight build provide all-day comfort, while 
       'Premium design with lightweight, durable materials',
     ],
     price: 349,
-    category: 'headphone',
+    category: 'headphones',
   },
   {
     name: 'FeatherTune Lite',
@@ -263,7 +263,7 @@ Despite their lightweight frame, FeatherTune Lite produces clear and well-balanc
       'Long battery life for all-day listening on the go',
     ],
     price: 199,
-    category: 'headphone',
+    category: 'headphones',
   },
   {
     name: 'BassPulse X',
@@ -281,7 +281,7 @@ These over-ear headphones feature plush ear cushions for exceptional comfort and
       'Modern aesthetic with durable construction',
     ],
     price: 279,
-    category: 'headphone',
+    category: 'headphones',
   },
   {
     name: 'WaveSync Air',
@@ -299,7 +299,7 @@ Lightweight and compact, these headphones are perfect for travel, workouts, and 
       'Quick charge feature for added convenience',
     ],
     price: 229,
-    category: 'headphone',
+    category: 'headphones',
   },
   {
     name: 'SRSphere G',
@@ -317,6 +317,6 @@ Precision-tuned drivers deliver exceptional detail across all frequencies, while
       'Durable build with sleek, modern aesthetics',
     ],
     price: 399,
-    category: 'headphone',
+    category: 'headphones',
   },
 ];
