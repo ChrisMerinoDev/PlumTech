@@ -150,7 +150,7 @@ export const phoneList = [
     name: 'Celestia One',
     slug: 'celestia-one',
     image: '/Phones/Phone1.jpg',
-    description: 'Super-fast 5G with crystal-clear edge display.',
+    description: 'Super-fast 5G with crystal-clear display.',
     details: `Celestia One offers a sleek and modern design coupled with super-fast 5G connectivity for streaming, gaming, and video calls without interruptions. Its expansive 6.5-inch OLED edge display delivers stunning contrast, vibrant colors, and immersive visuals that make every image and video pop. 
 
 Equipped with a versatile triple-lens camera, Celestia One captures sharp, detailed photos and videos in any lighting conditions. Smart AI enhancements improve portraits, landscapes, and low-light shots effortlessly. With an all-day battery and rapid charging capabilities, it’s ready to keep up with even the busiest lifestyle.
@@ -248,13 +248,13 @@ Memory foam ear cushions and a lightweight build provide all-day comfort, while 
     category: 'headphones',
   },
   {
-    name: 'FeatherTune Lite',
-    slug: 'feathertune-lite',
+    name: 'FeatherTune',
+    slug: 'feathertune',
     image: '/Headphones/Headphone2.jpg',
     description: 'Lightweight design for all-day listening comfort.',
-    details: `FeatherTune Lite is designed for those who prioritize comfort without sacrificing sound quality. Weighing just 180 grams, these headphones rest gently on your ears for hours of fatigue-free listening, making them perfect for long commutes, workdays, or relaxation sessions.
+    details: `FeatherTune is designed for those who prioritize comfort without sacrificing sound quality. Weighing just 180 grams, these headphones rest gently on your ears for hours of fatigue-free listening, making them perfect for long commutes, workdays, or relaxation sessions.
 
-Despite their lightweight frame, FeatherTune Lite produces clear and well-balanced audio, with crisp highs and satisfying bass. The adjustable headband and soft ear cushions adapt to any head shape for a perfect fit. With reliable Bluetooth connectivity and long battery life, they’re the ideal companion for music lovers seeking effortless portability.`,
+Despite their lightweight frame, FeatherTune produces clear and well-balanced audio, with crisp highs and satisfying bass. The adjustable headband and soft ear cushions adapt to any head shape for a perfect fit. With reliable Bluetooth connectivity and long battery life, they’re the ideal companion for music lovers seeking effortless portability.`,
     features: [
       'Extremely lightweight at just 180 grams',
       'Comfort-focused design for prolonged wear',
@@ -305,7 +305,7 @@ Lightweight and compact, these headphones are perfect for travel, workouts, and 
     name: 'SRSphere G',
     slug: 'srsphere-g',
     image: '/Headphones/Headphone5.jpg',
-    description: 'Immersive surround sound for gaming and music.',
+    description: 'Immersive sound for gaming and music.',
     details: `SurroundSphere G is crafted for gamers and audiophiles seeking true immersion. Advanced virtual surround technology creates a 360-degree audio environment, allowing you to pinpoint footsteps in games or enjoy the expansive soundscapes in your favorite music tracks.
 
 Precision-tuned drivers deliver exceptional detail across all frequencies, while the adjustable padded headband and breathable ear cushions ensure comfort during marathon sessions. Durable construction and stylish design make the SurroundSphere G a top choice for those who demand both performance and aesthetics.`,
