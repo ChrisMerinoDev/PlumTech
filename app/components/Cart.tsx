@@ -3,6 +3,7 @@
 
 import { useCartStore } from "../store/useCartStore";
 import Image from "next/image";
+import CheckoutButton from "./CheckoutButton";
 
 const Cart = () => {
     const cartItems = useCartStore((state) => state.cartItems);
@@ -10,13 +11,14 @@ const Cart = () => {
     const addItem = useCartStore((state) => state.addToCart)
     const getTotal = useCartStore((state) => state.getTotal);
     const clearCart = useCartStore((state) => state.clearCart);
+    // const checkout = useCartStore((state) => state.clearCart);
 
     if (cartItems.length === 0) {
         return (
             <div className="flex flex-col justify-center items-center h-[calc(95vh-6rem)] sm:h-[calc(100vh-6rem)] w-screen overflow-hidden">
-                <Image src='/empty-cart3.png' alt="empty-cart" width={320} height={320} className="w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] object-contain" />
-                <h2 className="text-4xl sm:text-5xl font-bold mx-auto">Your cart is empty...</h2>
-                <Image src='/cancel.svg' alt="cancel" width={100} height={100} className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] mt-5" />
+                <Image src='/cartpty.png' alt="empty-cart" width={320} height={320} className="w-[212px] h-[212px] sm:w-[312px] sm:h-[312px] object-contain" />
+                <h2 className="text-4xl sm:text-5xl mx-auto">Your cart is empty...</h2>
+                {/* <Image src='/cancel.svg' alt="cancel" width={100} height={100} className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] mt-5" /> */}
             </div>
         )
     }
@@ -46,10 +48,14 @@ const Cart = () => {
                 </li>
             ))}
         </ul>
-        <div className="flex justify-end mt-6">
+        <div className="flex justify-between mt-6">
             <button className="px-4 py-1.5 rounded-lg cursor-pointer text-red-600  hover:underline" onClick={clearCart}>
                 Clear Cart
             </button>
+
+            <div>
+                <CheckoutButton />
+            </div>
         </div>
 
         <div className="mt-8 text-right text-xl font-semibold">
