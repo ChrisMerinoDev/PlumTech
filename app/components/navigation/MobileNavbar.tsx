@@ -41,7 +41,7 @@ const MobileNavbar = ({ onClose }: Props) => {
   return (
     <>
     <motion.div
-      className="flex flex-col items-center gap-8 h-full w-[270px] py-11 shadow-lg bg-cover bg-center relative"
+      className="flex flex-col items-center gap-8 h-full w-[270px] py-11 shadow-lg bg-cover bg-center"
       style={{ backgroundImage: "url('/Background/bg6.jpg')" }}
       variants={slideVariants}
       initial="hidden"

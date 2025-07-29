@@ -2,7 +2,7 @@ import Cart from "@/app/components/Cart";
 
 const CartPage = () => {
   return (
-    <main className="">
+    <main>
       <Cart />
     </main>
   )

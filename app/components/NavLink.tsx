@@ -13,7 +13,7 @@ interface NavLinkProps {
 }
 
 const NavLink = ({
-    href, children, className = '', activeClassName='font-bold underline text-indigo-300', onClick
+    href, children, className = '', activeClassName='font-bold underline', onClick
 }: NavLinkProps) => {
     
     const pathname = usePathname();

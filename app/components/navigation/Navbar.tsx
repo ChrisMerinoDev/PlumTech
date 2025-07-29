@@ -3,7 +3,7 @@
 import { ROUTES } from '@/app/constants/routes'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import NavLink from '../NavLink'
 import MobileNavbar from './MobileNavbar'
 import { AnimatePresence } from 'framer-motion'
@@ -15,10 +15,19 @@ const Navbar = () => {
   const toggleMobileNav = () => setIsMobileNavOpen(prev => !prev);
   const closeMobileNav = () => setIsMobileNavOpen(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20); // change at 20px scroll
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [])
 
   return (
-    <nav className='w-full justify-center bg-transparent z-50 relative'>
+    <nav className={`w-full justify-center z-50 fixed transition-colors duration-300 ${isScrolled ? "bg-black" : "bg-gradient-to-b from-[#112254] to-100%"}`}>
       <div className='flex w-full items-center justify-between px-6 py-4'>
 
         {/* LEFT: Logo */}
